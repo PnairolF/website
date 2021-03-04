@@ -14,8 +14,8 @@ const ShowCase = () => (
         </h3>
         <p className="mt-4 max-w-2xl mx-auto lg:text-center text-xl leading-7 text-gray-500">
           Passionné par le développement web, je suis disponible pour vous
-          accompagner sur tout le front-end de votre projet : intégration,
-          architecture, connexion back-end et stratégie de tests.
+          accompagner sur votre projet : conception,
+          architecture, connexion Front-end / back-end, stratégie de tests, stratégie de déploiement, base de données.
         </p>
       </div>
 
@@ -25,19 +25,13 @@ const ShowCase = () => (
             En {yearsWorking} ans, j'ai accompagné plus
             <span className="block font-bold text-blue-500">
               de{" "}
-              {projects.reduce(
-                (total, project) =>
-                  project.isStartup ? total + project.nbOfClients : total,
-                0,
-              )}{" "}
-              projets startups
+              {projects.length}{" "}
+              projets
             </span>
           </h4>
           <p className="mt-3 text-lg leading-7 text-gray-500">
-            Ma plus-value, c'est ma passion pour le code de qualité, sans bugs
-            et bien testé. Avec moi, vous aurez l'assurance d'un produit de
-            grande qualité technique et facilement maintenable sur le long
-            terme.
+            Ma plus-value, c'est ma passion et mon expertise transverse.
+            Du Front au back en passant par l'architecture, je peux intervenir sur l'ensemble du produit
           </p>
 
           <ul className="mt-10">
@@ -53,11 +47,8 @@ const ShowCase = () => (
                     Spécialisé en React.js
                   </h5>
                   <p className="mt-2 text-base leading-6 text-gray-500">
-                    J'ai eu la chance de travailler sur plus d'une dizaine de
-                    projets en React.js ou React Native. Aujourd'hui, je préfère
-                    me concentrer sur React.js, pour le web uniquement. C'est ce
-                    qui me permet d'être très efficace et d'apporter une réelle
-                    expertise.
+                    J'ai pu accompagner startup et grosse entreprise sur la conception et la création de front en React.
+                    C'est ce qui me permet d'être très efficace et d'apporter une réelle expertise.
                   </p>
                 </div>
               </div>
@@ -81,12 +72,11 @@ const ShowCase = () => (
                 </div>
                 <div className="ml-4">
                   <h5 className="text-lg leading-6 font-medium text-gray-900">
-                    Intégration au pixel perfect
+                    Architecture
                   </h5>
                   <p className="mt-2 text-base leading-6 text-gray-500">
-                    Généralement, les designers aiment travailler avec moi. Je
-                    suis capable de comprendre les enjeux derrière leurs
-                    maquettes et de les reproduire avec une extrême fidélité.
+                    Que ce soit coté front ou back, je donne beaucoup d'importance au choix de la structure du projet
+                    et à son architecture afin de répondre au mieux à vos besoins.
                   </p>
                 </div>
               </div>
@@ -145,14 +135,12 @@ const ShowCase = () => (
             <h4 className="text-2xl leading-8 font-extrabold text-gray-900 tracking-tight sm:text-3xl sm:leading-9">
               Un de mes derniers projets :
               <span className="block font-bold text-green-400">
-                la start-up Agricool
+                Data@Engie pour Engie
               </span>
             </h4>
             <p className="mt-3 text-lg leading-7 text-gray-500">
-              Agricool avait besoin d'un bon dev front à l'aise avec Next.js
-              (framework React), TypeScript pour se brancher sur le headless CMS
-              Prismic.io en GraphQL, en améliorant autant que possible les
-              performances dans une optique d'éco-conception.
+              Engie avait besoin d'un développeur Full-stack afin de répondre à ses besoisn front
+              mais aussi pour accompagner son équipe backend et devops.
             </p>
 
             <ul className="mt-10">
@@ -175,15 +163,10 @@ const ShowCase = () => (
                   </div>
                   <div className="ml-4">
                     <h5 className="text-lg leading-6 font-medium text-gray-900">
-                      Intégration des vues
+                      Conception et réalisation de l'interface
                     </h5>
                     <p className="mt-2 text-base leading-6 text-gray-500">
-                      En quelques jours, j'ai intégré les 9 vues sur le Figma au
-                      pixel perfect qui ont ensuite été validées par le
-                      designer. J'ai choisi Storybook pour m'aider dans la
-                      création des composants React. J'ai aussi prévu le
-                      découpage de certains blocs afin d'être compatible avec
-                      les Slices de Prismic.
+                      Il a fallu concevoir une interface from scratch à partir des besoins du client.
                     </p>
                   </div>
                 </div>
@@ -207,13 +190,12 @@ const ShowCase = () => (
                   </div>
                   <div className="ml-4">
                     <h5 className="text-lg leading-6 font-medium text-gray-900">
-                      Branchement CMS Prismic
+                      Monter en compétences et s'adapter
                     </h5>
                     <p className="mt-2 text-base leading-6 text-gray-500">
-                      En collaboration avec le lead-dev d'Agricool, j'ai créer
-                      les différents types de pages dans Prismic, généré des
-                      données initiales depuis le back-office que j'ai ensuite
-                      récupérées à l'aide de GraphQL.
+                      En collaboration avec de nombreuses équipes (interne/externe, back/devops/sécurité),
+                      J'ai du m'adapter à chaque contraintes
+                      Mais aussi apprendre les contextes et leur fonctionnements afin d'apporter la meilleur solution.
                     </p>
                   </div>
                 </div>
@@ -237,15 +219,12 @@ const ShowCase = () => (
                   </div>
                   <div className="ml-4">
                     <h5 className="text-lg leading-6 font-medium text-gray-900">
-                      Éco-conception
+                      Innover
                     </h5>
                     <p className="mt-2 text-base leading-6 text-gray-500">
-                      Un des enjeux de la mission était de réaliser un site
-                      performant, accessible, avec un excellent score sur
-                      Lighthouse. La startup étant engagée dans la lutte contre
-                      le réchauffement climatique, j'ai pu mettre en oeuvre de
-                      nombreuses bonnes pratiques d'éco-conception sur le
-                      projet.
+                      Etant un projet qui impacte toute la compagnie,
+                      avec de gros challenges dans la façon d'utiliser la data,
+                      l'innovation a été le maitre mot de ce projet d'envergure.
                     </p>
                   </div>
                 </div>
@@ -257,8 +236,8 @@ const ShowCase = () => (
             <img
               className="relative mx-auto"
               width="550"
-              src="/images/agricool-showcase.jpg"
-              alt="Maquettes de la dernière version du site Agricool dont Thibaud Duthoit a réalisé l'intégration et le front-end."
+              src="/images/engie-CDH.png"
+              alt="Maquettes de la dernière version de la platforme d'Engie (Common data hub)."
             />
           </div>
         </div>

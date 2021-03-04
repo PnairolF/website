@@ -16,8 +16,14 @@ type Label =
   | "Rails"
   | "Gatsby.js"
   | "Python"
-  | "Cloud aws"
+  | "Aws services"
   | "Serverless"
+  | "GraphQl"
+  | "MongoDb"
+  | "Node"
+  | "Php"
+  | "Php/Symfony"
+  | "Bootstrap"
   | "Next.js";
 
 export type Project = {
@@ -30,46 +36,24 @@ export type Project = {
   done?: Array<string>;
 };
 
-const sitesVitrine = [
-  "Mark Decker",
-  "Dimis",
-  "Marquand",
-  "Optimum",
-  "Samuel Deschamps",
-  "MF07",
-  "Atelier d'Arte",
-  "Benedicto",
-  "Creatys Flor",
-  "JCGros",
-  "Darcel",
-  "Morgane Pochet",
-  "Antenne Hertech",
-  "Sofia Valves",
-  "Bjornsson",
-  "Nicolas Tonnard",
-  "Gauthier Jansen",
-  "Dopsia",
-  "Site perso",
-  "Amplitude Isolation",
-];
-
 const projects: Array<Project> = [
   {
     title: "Engie",
     year: "2019-2021",
-    labels: ["React", "Tailwind CSS", "JavaScript", "Python", "Cloud aws", "Serverless"],
+    labels: ["React", "Bootstrap", "Tailwind CSS", "JavaScript", "Python", "Aws services", "Serverless", "GraphQl"],
     nbOfClients: 1,
     isStartup: false,
     done: [
       "Création de toutes les vues du projet",
-      "Conseils sur l'UX et création de wireframes",
-      "Montée en compétences sur Ruby on Rails pour accompagner le back-end",
+      "Conseils sur l'UX",
+      "Développement de l'API en graphQL",
+      "Serverless, cloud aws"
     ],
   },
   {
     title: "Stryng Messaging",
     year: "2017-2018",
-    labels: ["React", "React Native", "CSS-in-JS", "JavaScript"],
+    labels: ["React", "React Native", "Python", "Node", "CSS-in-JS", "JavaScript", "MongoDb"],
     nbOfClients: 1,
     isStartup: true,
     done: [
@@ -77,18 +61,33 @@ const projects: Array<Project> = [
       "POC d'application en React Native",
       "Collaboration à l'équipe front-end",
       "Architecture et stratégie de tests",
-      "1 an de collaboration à temps plein",
     ],
   },
   {
     title: "Videodesk",
     year: "2015-2018",
-    labels: ["React", "React Native", "CSS", "JavaScript"],
-    nbOfClients: 2,
+    labels: ["Php/Symfony", "Node", "CSS", "JavaScript"],
+    nbOfClients: 1,
     isStartup: true,
     done: [
-      "Développement front-end et intégration sur un projet React.js",
-      "Intégration des vues sur application mobile en React native",
+    ],
+  },
+  {
+    title: "Trouvea",
+    year: "2015-2018",
+    labels: ["Php/Symfony", "JavaScript", "CSS"],
+    nbOfClients: 1,
+    isStartup: true,
+    done: [
+    ],
+  },
+  {
+    title: "SeFaireAider",
+    year: "2015-2018",
+    labels: ["Php", "JavaScript"],
+    nbOfClients: 1,
+    isStartup: true,
+    done: [
     ],
   },
 ];

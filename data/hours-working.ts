@@ -1,5 +1,5 @@
 const now = new Date();
-export const yearsWorking = now.getFullYear() - 2015;
+export const yearsWorking = now.getFullYear() - 2014;
 const monthsSincebeginning = yearsWorking * 12;
 const monthsSinceThisYear = now.getMonth() + 1;
 const totalMonths = monthsSincebeginning + monthsSinceThisYear;
