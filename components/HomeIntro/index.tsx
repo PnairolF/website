@@ -24,14 +24,14 @@ const HomeIntro = ({ navItems }: Props) => (
         <div className="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
           <div className="sm:text-center lg:text-left">
             <h2 className="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none">
-              Ensemble, concevons
+              Ensemble, développons
               <br className="" />
-              <span className="text-blue-500">un produit web innovant</span>
+              <span className="text-blue-500">des projets innovants</span>
             </h2>
             <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-              Bonjour, je suis Thibaud Duthoit.
+              Bonjour, je suis Florian PITUELLO.
               <br />
-              Développeur front-end freelance, spécialisé en React.
+              Développeur full-stack freelance, spécialisé en React.
             </p>
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div className="rounded-md shadow">
@@ -53,8 +53,8 @@ const HomeIntro = ({ navItems }: Props) => (
     <div className="flex justify-center lg:justify-end xl:justify-center items-center p-8 bg-gray-900 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
       <img
         className="rounded-full border-white border-4 sm:border-8 w-32 sm:w-48 lg:w-64"
-        src="/images/thibaud-duthoit.jpg"
-        alt="Thibaud Duthoit"
+        src="/images/me.jpg"
+        alt="Florian PITUELLO"
       />
     </div>
   </header>

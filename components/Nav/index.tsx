@@ -22,7 +22,7 @@ const Nav = ({ navItems }: Props) => {
             <div className="flex items-center justify-between w-full md:w-auto">
               <Link href="/">
                 <a className="text-2xl tracking-tight leading-10 font-extrabold">
-                  Thibaud Duthoit
+                  Florian PITUELLO
                 </a>
               </Link>
               <div className="flex items-center md:hidden">
@@ -72,7 +72,7 @@ const Nav = ({ navItems }: Props) => {
             <div className="pl-2 pr-4 pt-4 flex items-center justify-between">
               <Link href="/">
                 <a className="text-2xl tracking-tight leading-10 font-extrabold text-white">
-                  Thibaud Duthoit
+                  Florian PITUELLO
                 </a>
               </Link>
               <div className="-mr-2">

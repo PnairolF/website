@@ -20,10 +20,10 @@ const CallToActionCenter = ({ title, dark }: Props) => (
           <a className="btn btn-blue btn-big">Formulaire de contact</a>
         </Link>
         <a
-          href="mailto:contact@thibaud-duthoit.fr"
+          href="mailto:florian@pituello-consulting.com"
           className="btn btn-light btn-big mt-3 sm:mt-0 sm:ml-3"
         >
-          contact@thibaud-duthoit.fr
+          florian@pituello-consulting.com
         </a>
       </div>
     </div>
